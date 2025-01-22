@@ -1,0 +1,340 @@
+body{
+    font-family: Quicksand;
+    background: linear-gradient(to bottom, 
+    #F7F7F7 0%, 
+    #F7F7F7 70%, 
+    rgba(254, 163, 1, 0.30) 80%, 
+    rgba(254, 163, 1, 0.30) 100%);
+    padding: 0;
+    margin: 0 auto;
+}
+
+main, nav{
+    max-width: 1159px;
+    padding: 0;
+    margin: 0 auto;
+
+}
+
+.cart-background,
+.arrow-container,
+.background-color,
+.more-story{
+    background-image: url(/assets/bg.png);
+}
+
+/* nav style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 700;
+    gap: 32px;
+}
+ul{
+    display: flex;
+    gap: 32px;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+    width: 100px;
+    height: 100px;
+
+}
+.nav-title{
+    font-size: 32px;
+    font-weight: 700;    
+}
+.nav-li-1{
+    color: orange;
+}
+.nav-li-2{
+    color: #05D4DF;
+}
+.nav-li-3{
+    color: #01ACFD;
+}
+.nav-li-4{
+    color: #5D58EF;
+}
+
+.nav-btn{
+    border-radius: 12px;
+    background: #FEA301;
+    width: 197px;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    gap: 10px;    
+}
+
+/*  main vision parts style */
+.vision-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.container-description{
+    color:#111;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+.vision-btn{
+    width: 197px;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #111;
+    margin-top: 24px;
+    border: none;
+    color: #FFF;
+    background-image: url(/assets/bg.png);
+}
+.title-1{
+    color: #FEA301;
+    font-size: 56px;
+    font-weight: 700;
+  
+}
+.title-2{
+    color:  #111;
+    font-size: 56px;
+    font-weight: 700;    
+}
+.title-3{
+    color: #01ACFD;
+    font-size: 56px;
+    font-weight: 700;    
+}
+
+/* cart style */
+
+.universal-title{
+    text-align: center;
+    font-size: 46px;
+    font-weight: 700;
+    margin-top: 50px;
+    color: #000;
+
+}
+.stories-title{
+    margin: 120px 0 80px;
+}
+.cart-container{
+    display: flex;
+    text-align: center;
+    margin-top: 80px;
+    gap: 29px
+}
+.cart-heading{
+    color: #202020;
+    font-size: 24.523px;
+    font-weight: 700;    
+}
+.cart-description{
+    color: #808080;
+    font-size: 15.091px;
+    font-weight: 500;    
+}
+.cart-link-1{
+    text-decoration: none;
+    color: #64C8FF;
+    font-size: 15.091px;
+    font-weight: 700;
+}
+.cart-link-2{
+    text-decoration: none;
+    color: #F0AA00;
+    font-size: 15.091px;
+    font-weight: 700;
+}
+.cart-link-3{
+    text-decoration: none;
+    color: #8700FF;
+    font-size: 15.091px;
+    font-weight: 700;
+}
+.cart-detailes-1{
+    border-radius: 18.864px;
+    border: 0.943px solid #DEF5FF;
+    background: linear-gradient(180deg, #DEF5FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+    box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+    padding: 54px;    
+}
+.cart-detailes-2{
+    border-radius: 18.864px;
+    border: 0.943px solid #DEF5FF;
+    background: linear-gradient(180deg, #FFF4DC 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+    box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+    padding: 54px;
+}
+.cart-detailes-3{
+    border-radius: 18.864px;
+    border: 0.943px solid #F2E8FF;
+    background: linear-gradient(180deg, #EEE1FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+    box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+    padding: 54px;    
+}
+/* arrow symbol */
+.arrow-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    gap: 10px;
+}
+.arrow-symbol{
+    border-radius: 30px;
+    background-color: #FEA301;
+    padding: 17px 22px;
+}
+/* story style */
+.story-container{
+    display: flex;
+    gap: 19px;
+
+}
+.story-details-1{
+    border-radius: 16px;
+    background-color: #FFF;
+ 
+}
+.story-img-1{
+    border-radius: 16px 16px 0px 0px;
+}
+.story-btn-1{
+    position: relative;
+    z-index: 1;
+    bottom: 30px;
+    left: 39px;
+    width: 174.51px;
+    height: 47.934px;
+    padding: 14.38px 18.876px 15.339px 19.174px;
+    border-radius: 47.934px;
+    background: #3CD8E8;
+    border: none;
+    color: #FFF;
+}
+.story-title-1{
+    margin: 0;
+    padding-left: 39px;
+}
+.story-description-1{
+    padding: 39px;
+    color: #666;
+    font-family: Raleway;
+    font-size: 15.339px;
+    font-weight: 500;
+}
+.story-cart{
+    border-radius: 16px;
+    background-color: #FFF;
+    max-height: 302px;
+    width: 290.693px;
+
+}
+.story-details-4{
+    z-index: 1;
+    top: 319px;
+    right: 620px;
+    position: relative;
+}
+.story-details-5{
+    position: relative;
+    z-index: 1;
+    right: 310px;
+    top: 19px;
+}
+.story-btn{
+    border-radius: 47.934px;
+    position: relative;
+    bottom: 20px;
+    left: 39px;
+    width: 174.51px;
+    height: 38.347px;
+    padding: 9.587px 18.876px 10.545px 19.174px;
+    border: none;
+    background: #95B226;
+    color: #fff;
+}
+.story-title{
+    color: #000;
+    font-size: 15.339px;
+    font-weight: 700;
+    padding: 0 39px 39px;    
+}
+.story-details-2, .story-details-3, .story-details-4, .story-details-5{
+
+
+}
+/* more story cart style*/
+.more-title{
+    width: 197px;
+    margin: 99px 0 60px;
+    text-align: center;
+    border-radius: 12px;
+    padding: 10px;
+    margin-left: 500px;
+    background-color:  #111;
+    color: #fff;
+ 
+}
+/* footer style */
+footer{
+    width: 100%;
+    background: #01ACFD;
+    margin: 0 auto;
+    padding: 0;
+}
+.footer-container{
+    padding: 147px 147px 0 ;
+}
+.footer-logo{
+    margin-left: -90px;
+}
+.logo-title{
+    color: #FFF;
+    font-size: 42.143px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.brand-description{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo{
+    display: flex;
+}
+.footer-nav, li{
+    display: grid;
+    position: relative;
+    right: 20px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+}
+.footer-cta{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700; 
+}
+.footer-social{
+    color: #FFF;
+    font-size: 26px;
+    font-weight: 700;
+}
