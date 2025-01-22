@@ -2,7 +2,7 @@ body{
     font-family: Quicksand;
     background: linear-gradient(to bottom, 
     #F7F7F7 0%, 
-    #F7F7F7 70%, 
+    #F7F7F7 55%, 
     rgba(254, 163, 1, 0.30) 80%, 
     rgba(254, 163, 1, 0.30) 100%);
     padding: 0;
@@ -241,18 +241,6 @@ ul{
     width: 290.693px;
 
 }
-.story-details-4{
-    z-index: 1;
-    top: 319px;
-    right: 620px;
-    position: relative;
-}
-.story-details-5{
-    position: relative;
-    z-index: 1;
-    right: 310px;
-    top: 19px;
-}
 .story-btn{
     border-radius: 47.934px;
     position: relative;
@@ -271,10 +259,7 @@ ul{
     font-weight: 700;
     padding: 0 39px 39px;    
 }
-.story-details-2, .story-details-3, .story-details-4, .story-details-5{
 
-
-}
 /* more story cart style*/
 .more-title{
     width: 197px;

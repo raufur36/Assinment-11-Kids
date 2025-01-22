@@ -1,5 +1,5 @@
 @media screen and (min-width: 576px) and (max-width: 992px) {
-    body{
+    main, nav{
         max-width: 469px !important;
         margin: 0 auto;
         padding: 0;
@@ -104,61 +104,54 @@
 
     }
     .story-img-1{
-        width: 174px;
+        width: 240px;
+
 
     }
+    .more-story{
+        position: relative;
+        right: 370px;
+        top: 480px;
+        
+    }
+    .story-container{
+        flex-direction: row;
+        position: relative;
+        right: 265px;
+        gap: 20px;
+
+    }
+    .story-details-1{
+        position: relative;
+        top: 530px;
+        left: 260px;
+    }
     .story-details-1, .story-cart{
-        width: 174px;
-        height: 200px;    
+        width: 240px;
+        height: 250px;    
     }
     .story-title-1, .story-title{
         color: #000;
         font-size: 9px;
         font-weight: 700;
-        position: relative;
-        right: 20px;
     
     }
+    .gap{
+        margin-bottom: 20px;
+    }
     .primary-btn{
-        position: relative;
-        z-index: 1;
-        top: -17px;
-        left: 10px;
-        width: 103.909px;
-        height: 22.833px;
-        font-size: 7.5px;
+        width: 120px;
+        height: 25px;
+        font-size: 9px;
         font-weight: 500;  
-    }
-    .story-details-3{
-        position: relative;
-        top: 440px;
-        right: 405px;
-    }
-    .story-details-4{
-        position: relative;
-        top: 220px;
-        right: 610px;
-    }
-    .story-details-5{
-        position: relative;
-        right: 408px;
-    }
-    .more-title{
-        position: relative;
-        right: 300px;
-        top: 200px;
-    }
-    footer{
-        position: relative;
-        top: 200px;
     }
     .display-grid{
         display: grid;
     }
-    .story-container{
-        margin: 0 auto;
-        padding: 0;
+  
+    .footer-section-container{
+        margin-top: 500px;
     }
-    
-}
+  
+   
     
